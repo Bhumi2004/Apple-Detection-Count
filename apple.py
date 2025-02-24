@@ -4,7 +4,7 @@ from ultralytics import YOLO
 
 model = YOLO('yolov10n.pt')  # YOLOv10 weights file
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 while True:
     ret, frame = cap.read()
